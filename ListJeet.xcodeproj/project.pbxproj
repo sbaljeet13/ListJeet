@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D557F0F1E8CA91700F22D5A /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D557F0E1E8CA91700F22D5A /* TaskManager.swift */; };
+		9D6ABA691E9348760058A7BE /* done.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D6ABA671E9348760058A7BE /* done.jpg */; };
+		9D6ABA6A1E9348760058A7BE /* pending.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D6ABA681E9348760058A7BE /* pending.jpg */; };
+		9DC65D751E847FE000AA035B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC65D741E847FE000AA035B /* AppDelegate.swift */; };
+		9DC65D781E847FE000AA035B /* ListJeet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DC65D761E847FE000AA035B /* ListJeet.xcdatamodeld */; };
+		9DC65D7A1E847FE000AA035B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC65D791E847FE000AA035B /* MasterViewController.swift */; };
+		9DC65D7C1E847FE000AA035B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC65D7B1E847FE000AA035B /* DetailViewController.swift */; };
+		9DC65D7F1E847FE000AA035B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC65D7D1E847FE000AA035B /* Main.storyboard */; };
+		9DC65D811E847FE000AA035B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC65D801E847FE000AA035B /* Assets.xcassets */; };
+		9DC65D841E847FE000AA035B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC65D821E847FE000AA035B /* LaunchScreen.storyboard */; };
+		9DC65D8F1E847FE000AA035B /* ListJeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC65D8E1E847FE000AA035B /* ListJeetTests.swift */; };
+		9DC65D9A1E847FE000AA035B /* ListJeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC65D991E847FE000AA035B /* ListJeetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DC65D8B1E847FE000AA035B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC65D691E847FE000AA035B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC65D701E847FE000AA035B;
+			remoteInfo = ListJeet;
+		};
+		9DC65D961E847FE000AA035B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC65D691E847FE000AA035B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC65D701E847FE000AA035B;
+			remoteInfo = ListJeet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D557F0E1E8CA91700F22D5A /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		9D6ABA671E9348760058A7BE /* done.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = done.jpg; sourceTree = "<group>"; };
+		9D6ABA681E9348760058A7BE /* pending.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pending.jpg; sourceTree = "<group>"; };
+		9DC65D711E847FE000AA035B /* ListJeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListJeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC65D741E847FE000AA035B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DC65D771E847FE000AA035B /* ListJeet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ListJeet.xcdatamodel; sourceTree = "<group>"; };
+		9DC65D791E847FE000AA035B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9DC65D7B1E847FE000AA035B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9DC65D7E1E847FE000AA035B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DC65D801E847FE000AA035B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DC65D831E847FE000AA035B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DC65D851E847FE000AA035B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC65D8A1E847FE000AA035B /* ListJeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListJeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC65D8E1E847FE000AA035B /* ListJeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListJeetTests.swift; sourceTree = "<group>"; };
+		9DC65D901E847FE000AA035B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC65D951E847FE000AA035B /* ListJeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListJeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC65D991E847FE000AA035B /* ListJeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListJeetUITests.swift; sourceTree = "<group>"; };
+		9DC65D9B1E847FE000AA035B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC65D6E1E847FE000AA035B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC65D871E847FE000AA035B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC65D921E847FE000AA035B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC65D681E847FE000AA035B = {
+			isa = PBXGroup;
+			children = (
+				9DC65D731E847FE000AA035B /* ListJeet */,
+				9DC65D8D1E847FE000AA035B /* ListJeetTests */,
+				9DC65D981E847FE000AA035B /* ListJeetUITests */,
+				9DC65D721E847FE000AA035B /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		9DC65D721E847FE000AA035B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC65D711E847FE000AA035B /* ListJeet.app */,
+				9DC65D8A1E847FE000AA035B /* ListJeetTests.xctest */,
+				9DC65D951E847FE000AA035B /* ListJeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC65D731E847FE000AA035B /* ListJeet */ = {
+			isa = PBXGroup;
+			children = (
+				9DC65D741E847FE000AA035B /* AppDelegate.swift */,
+				9DC65D791E847FE000AA035B /* MasterViewController.swift */,
+				9D557F0E1E8CA91700F22D5A /* TaskManager.swift */,
+				9DC65D7B1E847FE000AA035B /* DetailViewController.swift */,
+				9DC65D7D1E847FE000AA035B /* Main.storyboard */,
+				9DC65D801E847FE000AA035B /* Assets.xcassets */,
+				9DC65D821E847FE000AA035B /* LaunchScreen.storyboard */,
+				9DC65D851E847FE000AA035B /* Info.plist */,
+				9D6ABA671E9348760058A7BE /* done.jpg */,
+				9D6ABA681E9348760058A7BE /* pending.jpg */,
+				9DC65D761E847FE000AA035B /* ListJeet.xcdatamodeld */,
+			);
+			path = ListJeet;
+			sourceTree = "<group>";
+		};
+		9DC65D8D1E847FE000AA035B /* ListJeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC65D8E1E847FE000AA035B /* ListJeetTests.swift */,
+				9DC65D901E847FE000AA035B /* Info.plist */,
+			);
+			path = ListJeetTests;
+			sourceTree = "<group>";
+		};
+		9DC65D981E847FE000AA035B /* ListJeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC65D991E847FE000AA035B /* ListJeetUITests.swift */,
+				9DC65D9B1E847FE000AA035B /* Info.plist */,
+			);
+			path = ListJeetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC65D701E847FE000AA035B /* ListJeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC65D9E1E847FE000AA035B /* Build configuration list for PBXNativeTarget "ListJeet" */;
+			buildPhases = (
+				9DC65D6D1E847FE000AA035B /* Sources */,
+				9DC65D6E1E847FE000AA035B /* Frameworks */,
+				9DC65D6F1E847FE000AA035B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListJeet;
+			productName = ListJeet;
+			productReference = 9DC65D711E847FE000AA035B /* ListJeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DC65D891E847FE000AA035B /* ListJeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC65DA11E847FE000AA035B /* Build configuration list for PBXNativeTarget "ListJeetTests" */;
+			buildPhases = (
+				9DC65D861E847FE000AA035B /* Sources */,
+				9DC65D871E847FE000AA035B /* Frameworks */,
+				9DC65D881E847FE000AA035B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC65D8C1E847FE000AA035B /* PBXTargetDependency */,
+			);
+			name = ListJeetTests;
+			productName = ListJeetTests;
+			productReference = 9DC65D8A1E847FE000AA035B /* ListJeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DC65D941E847FE000AA035B /* ListJeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC65DA41E847FE000AA035B /* Build configuration list for PBXNativeTarget "ListJeetUITests" */;
+			buildPhases = (
+				9DC65D911E847FE000AA035B /* Sources */,
+				9DC65D921E847FE000AA035B /* Frameworks */,
+				9DC65D931E847FE000AA035B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC65D971E847FE000AA035B /* PBXTargetDependency */,
+			);
+			name = ListJeetUITests;
+			productName = ListJeetUITests;
+			productReference = 9DC65D951E847FE000AA035B /* ListJeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC65D691E847FE000AA035B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Langara;
+				TargetAttributes = {
+					9DC65D701E847FE000AA035B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 49EL3KQ22X;
+					};
+					9DC65D891E847FE000AA035B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9DC65D701E847FE000AA035B;
+					};
+					9DC65D941E847FE000AA035B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9DC65D701E847FE000AA035B;
+					};
+				};
+			};
+			buildConfigurationList = 9DC65D6C1E847FE000AA035B /* Build configuration list for PBXProject "ListJeet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC65D681E847FE000AA035B;
+			productRefGroup = 9DC65D721E847FE000AA035B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC65D701E847FE000AA035B /* ListJeet */,
+				9DC65D891E847FE000AA035B /* ListJeetTests */,
+				9DC65D941E847FE000AA035B /* ListJeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC65D6F1E847FE000AA035B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC65D841E847FE000AA035B /* LaunchScreen.storyboard in Resources */,
+				9D6ABA691E9348760058A7BE /* done.jpg in Resources */,
+				9DC65D811E847FE000AA035B /* Assets.xcassets in Resources */,
+				9DC65D7F1E847FE000AA035B /* Main.storyboard in Resources */,
+				9D6ABA6A1E9348760058A7BE /* pending.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC65D881E847FE000AA035B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC65D931E847FE000AA035B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC65D6D1E847FE000AA035B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D557F0F1E8CA91700F22D5A /* TaskManager.swift in Sources */,
+				9DC65D751E847FE000AA035B /* AppDelegate.swift in Sources */,
+				9DC65D781E847FE000AA035B /* ListJeet.xcdatamodeld in Sources */,
+				9DC65D7A1E847FE000AA035B /* MasterViewController.swift in Sources */,
+				9DC65D7C1E847FE000AA035B /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC65D861E847FE000AA035B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC65D8F1E847FE000AA035B /* ListJeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC65D911E847FE000AA035B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC65D9A1E847FE000AA035B /* ListJeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DC65D8C1E847FE000AA035B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC65D701E847FE000AA035B /* ListJeet */;
+			targetProxy = 9DC65D8B1E847FE000AA035B /* PBXContainerItemProxy */;
+		};
+		9DC65D971E847FE000AA035B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC65D701E847FE000AA035B /* ListJeet */;
+			targetProxy = 9DC65D961E847FE000AA035B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DC65D7D1E847FE000AA035B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC65D7E1E847FE000AA035B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DC65D821E847FE000AA035B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC65D831E847FE000AA035B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC65D9C1E847FE000AA035B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DC65D9D1E847FE000AA035B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC65D9F1E847FE000AA035B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ListJeet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baljeet.ListJeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DC65DA01E847FE000AA035B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ListJeet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baljeet.ListJeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DC65DA21E847FE000AA035B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ListJeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baljeet.ListJeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListJeet.app/ListJeet";
+			};
+			name = Debug;
+		};
+		9DC65DA31E847FE000AA035B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ListJeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baljeet.ListJeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListJeet.app/ListJeet";
+			};
+			name = Release;
+		};
+		9DC65DA51E847FE000AA035B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ListJeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baljeet.ListJeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ListJeet;
+			};
+			name = Debug;
+		};
+		9DC65DA61E847FE000AA035B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ListJeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Baljeet.ListJeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ListJeet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC65D6C1E847FE000AA035B /* Build configuration list for PBXProject "ListJeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC65D9C1E847FE000AA035B /* Debug */,
+				9DC65D9D1E847FE000AA035B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC65D9E1E847FE000AA035B /* Build configuration list for PBXNativeTarget "ListJeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC65D9F1E847FE000AA035B /* Debug */,
+				9DC65DA01E847FE000AA035B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC65DA11E847FE000AA035B /* Build configuration list for PBXNativeTarget "ListJeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC65DA21E847FE000AA035B /* Debug */,
+				9DC65DA31E847FE000AA035B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC65DA41E847FE000AA035B /* Build configuration list for PBXNativeTarget "ListJeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC65DA51E847FE000AA035B /* Debug */,
+				9DC65DA61E847FE000AA035B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9DC65D761E847FE000AA035B /* ListJeet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DC65D771E847FE000AA035B /* ListJeet.xcdatamodel */,
+			);
+			currentVersion = 9DC65D771E847FE000AA035B /* ListJeet.xcdatamodel */;
+			path = ListJeet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9DC65D691E847FE000AA035B /* Project object */;
+}
